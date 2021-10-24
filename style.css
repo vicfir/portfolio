@@ -1,0 +1,76 @@
+.conteneur {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #ebe3d5;
+}
+
+/*--------------------HEADER--------------------------*/
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.vf {
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+}
+
+.separateur {
+    margin: 40px auto;
+    height: 1px;
+    width: 40%;
+    display: block;
+    background-color: black;
+}
+
+/*---------------------MENU--------------------------*/
+.menu {
+    width: 100%;
+    background-color: cadetblue;
+
+    position:absolute;  /* la fenêtre semble être séparée du reste du code */
+    z-index: 5;
+    top:-280px;
+
+    /* transition pour faire disparaître le menu */
+    transition: top 500ms ease 0ms;
+
+}
+
+/* pour afficher la fenêtre du menu */
+.menu.affiche {
+    top:0px;
+
+    /* transition pour faire apparaître le menu */
+    transition: top 500ms linear 0s;
+}
+
+.menu ul {
+    padding: 0;
+}
+
+.menu ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color:white;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.burger {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/*---------------------MAIN-------------------*/
+
+main h1 {
+    text-align: center;
+}

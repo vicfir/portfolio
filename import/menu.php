@@ -1,4 +1,4 @@
-<nav>
+<nav class="menu" onclick="toggle();">
     <ul>
         <li><a href="./">Accueil</a></li>
         <li><a href="./?page=galerie">Galerie</a></li>
