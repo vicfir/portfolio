@@ -12,8 +12,8 @@
 <body class="conteneur">
     <header>
         <img class="vf" src="./images/vf-n.png" alt="">
-        <h1>Victor Firkowski</h1>
-        <h1>Développeur Web</h1>
+        <h1 class="victor">Victor Firkowski</h1>
+        <h1 class="webdev">Développeur Web</h1>
         <span class="separateur"></span>
     </header>
 

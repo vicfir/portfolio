@@ -1,66 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200&family=Bebas+Neue&display=swap');
+
 .conteneur {
     margin: 0;
     display: grid;
     grid-template-columns: 1fr;
-    background-color: #ebe3d5;
+    background-color: #efefef;
 }
 
 /*--------------------HEADER--------------------------*/
+header {
+    background-color: #f5c67c;
+}
+
 header h1 {
     margin: 0;
     text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.victor{
+    margin-top: 30px;
+    letter-spacing: 2px;
+    color: #080706;
+    font-size: 100%;
+}
+
+.webdev {
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: #080706;
 }
 
 .vf {
     display: block;
-    margin: 10px auto;
-    width: 50%;
+    margin: 20px auto;
+    width: 35%;
 }
 
 .separateur {
-    margin: 40px auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
     height: 1px;
     width: 40%;
     display: block;
-    background-color: black;
+    background-color: #594D46;
 }
 
 /*---------------------MENU--------------------------*/
 .menu {
     width: 100%;
-    background-color: cadetblue;
-
-    position:absolute;  /* la fenêtre semble être séparée du reste du code */
+    background-color: #594D46;
+    position:absolute;  
     z-index: 5;
-    top:-280px;
-
-    /* transition pour faire disparaître le menu */
+    top:-50%;
     transition: top 500ms ease 0ms;
-
 }
 
-/* pour afficher la fenêtre du menu */
 .menu.affiche {
     top:0px;
-
-    /* transition pour faire apparaître le menu */
     transition: top 500ms linear 0s;
 }
 
 .menu ul {
     padding: 0;
+    height: 50%;
 }
 
 .menu ul li {
     list-style: none;
     text-align: center;
+    margin: 4%;
 }
 
 .menu ul li a {
     text-decoration: none;
-    color:white;
-    font-size: 200%;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #efefef;
+    font-size: 150%;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 .burger {
@@ -70,7 +87,15 @@ header h1 {
 }
 
 /*---------------------MAIN-------------------*/
+main {
+    margin-top: 40px;
+}
 
 main h1 {
     text-align: center;
+    color: #594D46;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: lighter;
+    margin: 0;
+    font-size: 170%;
 }
