@@ -10,6 +10,7 @@
 /*--------------------HEADER--------------------------*/
 header {
     background-color: #f5c67c;
+    width: 100%;
 }
 
 header h1 {
@@ -35,6 +36,7 @@ header h1 {
     display: block;
     margin: 20px auto;
     width: 35%;
+    max-width: 150px;
 }
 
 .separateur {
@@ -50,10 +52,10 @@ header h1 {
 /*---------------------MENU--------------------------*/
 .menu {
     width: 100%;
-    background-color: #594D46;
+    background-color: rgba(89, 77, 70, 0.9);
     position:absolute;  
     z-index: 5;
-    top:-50%;
+    top: -70%;
     transition: top 500ms ease 0ms;
 }
 
@@ -113,6 +115,14 @@ main h1 {
         text-align: left;
     }
 
+    .separateur {
+        margin-top: 52px;
+    }
+
+    .victor {
+        margin-top: 40px;
+    }
+
     /*--------------------MENU-------------------*/
     .menu {
         width: 30%;
@@ -121,5 +131,32 @@ main h1 {
 
     .burger {
         top: 0;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .burger {
+        display: none;
+    }
+
+    .separateur {
+        display: none;
+    }
+
+    .menu {
+        width: 100%;
+        top: 0;
+        height: auto;
+        position:sticky;
+    }
+
+    .menu ul {
+        padding-left: 10%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .menu ul li {
+        display: inline;
     }
 }
