@@ -81,6 +81,10 @@ header h1 {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
+.menu ul li a:hover {
+    font-weight: bold;
+}
+
 .burger {
     position: absolute;
     bottom: 0;
@@ -135,25 +139,47 @@ main h1 {
 }
 
 @media screen and (min-width:1280px) {
+
+    /*-------------------HEADER------------------*/
+    .vf{
+        display: block;
+        width: 150px;
+        margin-left: 35%;
+        margin-bottom: 70px;
+        margin-top: 50px;
+        max-width: none;
+    }
+
+    .victor {
+        font-size: 150% ;
+        margin-top: 80px;
+    }
+
+    .webdev {
+        font-size: 300% ;
+    }
+
     .burger {
         display: none;
     }
 
     .separateur {
-        display: none;
+        margin-top: 105px;
+        /* display: none; */
     }
 
+    /*--------------------MENU-------------------*/
     .menu {
         width: 100%;
-        top: 0;
         height: auto;
         position:sticky;
+        margin-top: 20px;
     }
 
     .menu ul {
         padding-left: 10%;
-        margin-top: 0;
-        margin-bottom: 0;
+        margin-top: 2px;
+        margin-bottom: 6px;
     }
 
     .menu ul li {
