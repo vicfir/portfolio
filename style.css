@@ -86,9 +86,9 @@ header h1 {
 }
 
 .burger {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
 }
 
 /*---------------------MAIN-------------------*/
@@ -100,10 +100,53 @@ main h1 {
     text-align: center;
     color: #594D46;
     font-family: 'Barlow Condensed', sans-serif;
-    font-weight: lighter;
+    font-weight: normal;
     margin: 0;
     font-size: 170%;
 }
+
+/*----------------------LIENS--------------------*/
+
+main p {
+    margin: 30px 5px;
+    text-align: center;
+    color: #594D46;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.liens {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.liens a {
+    text-decoration: none;
+}
+
+.liens img {
+    width: 100%;
+    border: 1px solid #f5c67c;
+    border-radius: 5px;
+}
+
+.titre_mobile {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #594D46;
+    font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+.titre_ordi {
+    display: none;
+}
+
 
 @media screen and (min-width:800px) {
 
@@ -134,8 +177,53 @@ main h1 {
     }
 
     .burger {
+        position: absolute;
         top: 0;
     }
+
+    /*-------------------MAIN-----------------------*/
+    main h1 {
+        font-size: 40px;
+    }
+
+    main p {
+        font-size: 25px;
+    }
+
+    /*-------------------LIENS----------------------*/
+    .liens a {
+        background-color: #594D46;
+        text-decoration: none;
+        border-radius: 5px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .liens img {
+        display: block;
+        float: right;
+        width: 75%;
+        border-radius: 0px 5px 5px 0px;
+        margin-left: 15px;
+    }
+
+    .titre_mobile {
+        display: none;
+    }
+
+    .titre_ordi {
+        display: inline;
+    }
+
+    .titre_ordi h3 {
+        margin: 0px;
+        color: #efefef;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: normal;
+        margin-left: 15px;
+    }
+
+
 }
 
 @media screen and (min-width:1280px) {
@@ -185,4 +273,5 @@ main h1 {
     .menu ul li {
         display: inline;
     }
+
 }
