@@ -6,4 +6,5 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css" type="text/css">
     <link rel="stylesheet" href="./style.css" type="text/css">
+    <link href="./lightbox/css/lightbox.min.css" rel="stylesheet" type="text/css">
 </head> 
