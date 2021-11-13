@@ -13,7 +13,7 @@
     <main>
         <h1>Galerie</h1>
 
-        <p>Une liste des travaux réalisés au cours.</p>
+        <p class="descri">Une liste des travaux réalisés au cours.</p>
 
         <div class="galerie">
             <figure>

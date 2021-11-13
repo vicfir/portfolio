@@ -13,7 +13,7 @@
     <main>
         <h1>Liens</h1>
 
-        <p>Une liste de liens vers des sites intéressants pour le web.</p>
+        <p class="descri">Une liste de liens vers des sites intéressants pour le web.</p>
 
         <div class="liens">
             <a href="https://www.awwwards.com/" target="blank">
