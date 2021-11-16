@@ -13,21 +13,21 @@
     <main>
         <h1>Galerie</h1>
 
-        <p>Une liste des travaux réalisés au cours.</p>
+        <h2>Une liste des travaux réalisés au cours</h2>
 
         <div class="galerie">
             <figure>
                 <a href="./images/imgGalerie/prefo_g.png" data-lightbox="galerie" data-title="Site de préformation">
                     <img src="./images/imgGalerie/prefo.png" alt="Site de préformation">
                 </a>
-                <a href="http://victor.webdev-cf2m.be/prefo/index.html"><figcaption>Fin de préformation &#x1F5D7;</figcaption></a>
+                <a href="http://victor.webdev-cf2m.be/prefo/index.html" target="_blank"><figcaption>Fin de préformation &#x1F5D7;</figcaption></a>
             </figure>
 
             <figure>
                 <a href="./images/imgGalerie/madrid_g.png" data-lightbox="galerie" data-title="Site de la ville de Madrid">
                     <img src="./images/imgGalerie/madrid.png" alt="Site de la ville de Madrid">
                 </a>
-                <a href="http://victor.webdev-cf2m.be/madrid/index.php"><figcaption>Site de la ville de Madrid &#x1F5D7;</figcaption></a>
+                <a href="http://victor.webdev-cf2m.be/madrid/index.php" target="_blank"><figcaption>Site de la ville de Madrid &#x1F5D7;</figcaption></a>
             </figure>
 
             <figure>
