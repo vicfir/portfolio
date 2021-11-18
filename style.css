@@ -253,7 +253,60 @@ main p {
     width: 100%;
 }
 
-/*----------------------TUTO---------------------------*/
+/*---------------------CONTACT---------------------------*/
+form{
+    width: 80%;
+    margin: 30px auto;
+}
+
+input {
+    border: 1px solid #594D46;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 2px solid #f5c67c;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type=text]{
+    width: 98%;
+    height: 20px;
+    margin: 15px 0px;
+}
+
+input[type=submit]{
+    height: 24px;
+    margin: 30px auto;
+    display: block;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+}
+
+::placeholder {
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+    padding-left: 5px;
+}
+
+textarea {
+    width: 98%;
+    height: 100px;
+    margin: 15px 0px;
+    border: 1px solid #594D46;
+    border-radius: 5px;
+    resize: none;
+}
+
+textarea:focus {
+    border: 2px solid #f5c67c;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+/*----------------------FOOTER---------------------------*/
 footer {
     background-color: #594D46;
     margin-top: 20px;
@@ -317,6 +370,10 @@ footer p{
     }
 
     /*-------------------LIENS----------------------*/
+    .liens {
+        gap: 20px;
+    }
+
     .liens a {
         background-color: #594D46;
         text-decoration: none;
