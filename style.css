@@ -53,7 +53,7 @@ header h1 {
 .menu {
     width: 100%;
     background-color: rgba(89, 77, 70, 0.9);
-    position:absolute;  
+    position:fixed;  
     z-index: 5;
     top: -70%;
     transition: top 500ms ease 0ms;
@@ -151,7 +151,6 @@ main p {
 .liens {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
     width: 85%;
     margin: 0 auto;
 }
@@ -226,8 +225,7 @@ main p {
     color: #080706;
 }
 
-/*----------------------TUTO-----------------*/
-
+/*----------------------TUTO---------------------------*/
 .tuto {
     display: grid;
     width: 100%;
@@ -253,6 +251,20 @@ main p {
 
 .tutos {
     width: 100%;
+}
+
+/*----------------------TUTO---------------------------*/
+footer {
+    background-color: #594D46;
+    margin-top: 20px;
+}
+
+footer p{
+    color: #efefef;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: lighter;
 }
 
 @media screen and (min-width:800px) {

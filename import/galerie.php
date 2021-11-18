@@ -41,6 +41,8 @@
 
     <img class="burger" src="./images/burger.png" alt="menu" onclick="toggle();">
 
+    <?php include "footer.php"; ?>
+
     <script src="./lightbox/js/lightbox-plus-jquery.min.js"></script>
     <script src="./menu.js"></script>
 </body>

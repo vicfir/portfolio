@@ -39,6 +39,9 @@
     </main>
 
     <img class="burger" src="./images/burger.png" alt="menu" onclick="toggle();">
+
+    <?php include "footer.php"; ?>
+    
     <script src="./menu.js"></script>
 </body>
 </html>
