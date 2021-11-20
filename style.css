@@ -427,6 +427,10 @@ footer p{
     .tuto h2 {
         margin-top: 50px;
     }
+    /*------------------CONTACT-----------------*/
+    form {
+        max-width: 800px;
+    }
 
 }
 
@@ -537,4 +541,5 @@ footer p{
         padding-top: 10px;
     }
 
+    /*------------------CONTACT-----------------*/
 }
