@@ -305,11 +305,28 @@ textarea:focus {
     outline: none;
 }
 
+/*----------------------CV---------------------------*/
+.cv {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.cv a {
+    width: 100%;
+}
+
+.cv a img {
+    width: 100%;
+}
+
 
 /*----------------------FOOTER---------------------------*/
 footer {
+    width: 100%;
     background-color: #594D46;
     margin-top: 20px;
+    position: fixed;
+    bottom: 0;
 }
 
 footer p{
@@ -427,6 +444,15 @@ footer p{
     .tuto h2 {
         margin-top: 50px;
     }
+    /*------------------CONTACT-----------------*/
+    form {
+        max-width: 800px;
+    }
+
+    /*----------------------CV---------------------------*/
+.cv {
+    max-width: 400px;
+}
 
 }
 
@@ -537,4 +563,5 @@ footer p{
         padding-top: 10px;
     }
 
+    /*------------------CONTACT-----------------*/
 }

@@ -12,12 +12,19 @@
 
     <main>
         <h1>Curriculum vitae</h1>
+
+        <div class="cv">
+            <a href="./images/CV.jpg" data-lightbox="galerie" data-title="cv">
+                <img src="./images/CV.jpg" alt="cv">
+            </a>
+        </div>
     </main>
 
     <img class="burger" src="./images/burger.png" alt="menu" onclick="toggle();">
 
     <?php include "footer.php"; ?>
 
+    <script src="./lightbox/js/lightbox-plus-jquery.min.js"></script>
     <script src="./menu.js"></script>
 </body>
 </html>
