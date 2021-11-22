@@ -6,11 +6,13 @@
         <h1 class="victor">Victor Firkowski</h1>
         <h1 class="webdev">Développeur Web</h1>
         <span class="separateur"></span>
+        <a href="./?page=admin"><img class="imgadmin" src="./images/imgadmin.png" alt="admin"></a>
     </header>
 
     <?php include "menu.php"; ?>
 
     <main>
+
         <h1>Accueil</h1>
 
         <p class="accueil">Bonjour et bienvenue sur mon portefolio. Je vous invite à faire un tour sur mon site afin d'en savoir un peu plus sur moi. Vous y trouverez mes travaux, mon cv, une page pour me contacter, une critique sur des tutoriels ainsi que des liens vers des sites utiles.<br><br>

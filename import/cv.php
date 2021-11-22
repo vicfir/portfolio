@@ -6,6 +6,7 @@
         <h1 class="victor">Victor Firkowski</h1>
         <h1 class="webdev">Développeur Web</h1>
         <span class="separateur"></span>
+        <a href="./?page=admin"><img class="imgadmin" src="./images/imgadmin.png" alt="admin"></a>
     </header>
 
     <?php include "menu.php"; ?>

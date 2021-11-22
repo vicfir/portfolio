@@ -92,6 +92,13 @@ header h1 {
     right: 0px;
 }
 
+.imgadmin {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+}
 /*---------------------MAIN-------------------*/
 main {
     margin-top: 40px; 
@@ -283,6 +290,12 @@ input[type=text]{
     margin: 15px 0px;
 }
 
+input[type=password]{
+    width: 98%;
+    height: 20px;
+    margin: 15px 0px;
+}
+
 input[type=submit]{
     height: 24px;
     margin: 30px auto;
@@ -377,6 +390,11 @@ footer p{
         top: 0;
     }
 
+    .imgadmin {
+        margin-right: 50px;
+        margin-top: 0px;
+    }
+
     /*-------------------MAIN-----------------------*/
     main h1 {
         font-size: 40px;
@@ -457,9 +475,9 @@ footer p{
     }
 
     /*----------------------CV---------------------------*/
-.cv {
-    max-width: 400px;
-}
+    .cv {
+        max-width: 400px;
+    }
 
 }
 
@@ -510,6 +528,12 @@ footer p{
     .menu ul li {
         display: inline;
     }
+
+    .imgadmin {
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    
 
     /*-------------------GALERIE----------------------*/
     .galerie {
