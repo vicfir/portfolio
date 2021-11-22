@@ -33,5 +33,10 @@ if(!isset($_GET['page'])){
             include_once "import/cv.php";
             $title = "V.Firkowski - CV";
             echo "<title>".$title."</title>";
+            break;
+        case "admin":
+            include_once "import/admin.php";
+            $title = "V.Firkowski - CV";
+            echo "<title>".$title."</title>";
     }
 }

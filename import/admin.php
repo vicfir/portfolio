@@ -13,14 +13,12 @@
 
     <main>
 
-        <h1>Contact</h1>
+        <h1>Admin</h1>
 
-        <form action="" name="contact" method="POST">
-            <input type="text" name="thename" placeholder="Votre nom" required /><br>
-            <input type="text" name="themail" placeholder="Votre adresse mail" required /><br>
-            <input type="text" name="thesubject" placeholder="Sujet" required /><br>
-            <textarea name="thetext" placeholder="Votre texte" required></textarea><br>
-            <input type="submit" value="Envoyer votre message"/>
+        <form action="" name="login" method="POST">
+            <input type="text" name="log" placeholder="Votre identifiant" required /><br>
+            <input type="password" name="mdp" placeholder="Votre mot de passe" required /><br>
+            <input type="submit" value="Connexion"/>
         </form>
     </main>
 
